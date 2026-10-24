@@ -112,7 +112,7 @@ class Router implements HttpKernelInterface {
 	 * @return Response A Response instance
 	 * @throws \Exception
 	 */
-	public function handle(Request $request, $type = HttpKernelInterface::MASTER_REQUEST, $catch = true) {
+	public function handle(Request $request, int $type = HttpKernelInterface::MAIN_REQUEST, bool $catch = true) {
 		try {
 			// initialize view to ensure StreamedResponse->streamed is false
 			$this->view = null;
