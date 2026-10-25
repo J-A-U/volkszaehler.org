@@ -16,7 +16,7 @@
         "protonlabs/php-shunting-yard": "^1.0",
         "symfony/cache": "^5.0|^6.0|^7.0",
         "symfony/console": "^5.0|^6.0|^7.0",
-        "symfony/http-kernel": "^5.0|6.0",
+        "symfony/http-kernel": "^5.0|^6.0|^7.0",
         "symfony/http-foundation": "^5.0|^6.0|^7.0",
         "symfony/routing": "^5.0|^6.0|^7.0",
         "symfony/yaml": "^5.0|^6.0|^7.0",
